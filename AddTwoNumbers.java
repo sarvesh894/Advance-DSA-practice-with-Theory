@@ -52,6 +52,6 @@ public class AddTwoNumbers {
         l2.next.next = new ListNode(4);
 
         ListNode result = addTwoNumbers(l1, l2);
-        printList(result); // Output: 7 -> 0 -> 8 (807)
+        printList(result); 
     }
 }
